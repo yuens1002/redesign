@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<script src="https://use.fontawesome.com/eef414928c.js"></script>
 	<title>Advanced Audio Technology</title>
 </head>
 
@@ -24,15 +25,17 @@
 		<div>
 			<div>
 				<ul>
-					<li><h5>Like Us On</h5> Facebook</li>
+					<li><h5>Like Us On</h5> <a href="#" onclick="return false;">Facebook</a></li>
 					<li><h5>Call Today</h5> (630) 665-3344</li>
 				</ul></div>
-			<div>
+			<div class="top-links">
 				<ul>
+					<li>All Major Credit Cards Accepted: <i class="fa fa-cc-mastercard" aria-hidden="true"></i> <i class="fa fa-cc-visa" aria-hidden="true"> <i class="fa fa-cc-discover" aria-hidden="true"></i></i></li>
 					<li><a href="#">CD/DVD Specs</a></li>
 					<li><a href="#">Upload Files</a></li>
 				</ul>
 			</div>
+
 		</div>
 	</header>
 	<nav>
@@ -44,10 +47,27 @@
 			<li><a href="#" onclick="return false;">Services</a></li>
 			<li><a href="#" onclick="return false;">Contact Us</a></li>
 		</ul>
+
 	</nav>
+	<nav-2 class="menu-sm">
+		<ul>
+			<li class="active"><a href="#" onclick="return false;">Home</a></li>
+			<li><a href="#" onclick="return false;">Production</a></li>
+			<li><a href="#" onclick="return false;">Duplication</a></li>
+			<li><a href="#" onclick="return false;">Recording</a></li>
+			<li><a href="#" onclick="return false;">Services</a></li>
+			<br>
+			<li><a href="#" onclick="return false;">Legal</a></li>
+			<li><a href="#" onclick="return false;">Contact Us</a></li>
+			<li><a href="#" onclick="return false;">CD/DVD Specs</a></li>
+			<li><a href="#" onclick="return false;">Upload Files</a></li>
+		</ul>
+	</nav-2>
 	<section id="carousel">
-		<a onclick='slideshow.getNext()'><img></a>
-		<div><h5></h5><p></p></div>
+		<div><img></div>
+		<div class="left"><button onclick='slideshow.prevSlide()'>&lsaquo;</button></div>
+		<div class="text"></div>
+		<div class="right"><button onclick='slideshow.nextSlide()'>&rsaquo;</button></div>
 	</section>
 	<section id="main">
 		<aside>
@@ -64,8 +84,8 @@
 		</aside>
 		<aside>
 			<h3>Get a Free Quote For your Project</h3>
-			<p>One of our specialists will give you a free, no-obligation quote for your project.
-				<br><button>Learn More</button></p><a href="#">Upload Your Files</a>
+			<p>One of our specialists will give you a free, no-obligation quote for your project.</p> <a href="#" onclick="return false;">Learn More</a>
+			<a href="#">Upload Files</a>
 		</aside>
 	</section>
 
