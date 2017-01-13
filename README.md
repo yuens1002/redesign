@@ -11,4 +11,3 @@ responsive layout
 	3d. take action section
 	3e. text
 	3f. footr
-	
