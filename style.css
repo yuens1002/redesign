@@ -193,7 +193,6 @@ button:hover {
 
 #main aside:first-child {
 	flex: 2;
-	flex-basis: 20%;
 	padding-right: 3rem;
 
 }
@@ -212,6 +211,8 @@ footer {
 
 @media all and (max-width: 750px) {
   nav { font-size: 80%; }
+  #main aside:first-child {
+	padding: 0;
 }
 
 @media all and (max-width: 660px) {
@@ -230,11 +231,12 @@ footer {
 	aside, nav, header, #main, #carousel .text, footer {
 	padding: 1rem;
 	}
-
 	footer {
-		padding-bottom: 7rem;
+		padding-bottom: 10rem;
 		font-size: 75%;
 	}
+}
+
 
 }
 
