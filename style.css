@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+body {
+
+	font-size: 16px;
+	background-color: #ededed;
+}
+
+img {
+	border: none;
+	width: 100%;
+	border-style: none;
+	border: 0;
+}
+
+sup {
+	font-size: 50%;
+}
+
+aside, nav, header {
+	padding: 3rem;
+}
+
+h1 {
+	padding-bottom: 1rem;
+}
+
+li, aside, h5, h6 {
+	display: inline-block;
+}
+
+nav header footer {
+	border-bottom: 1px solid #d3d3d3;
+}
+
+nav li.active {
+	border-bottom: 2px solid darkcyan;
+}
+
+nav li:hover {
+	border-bottom: 2px solid #50E3C2;
+}
+
+footer, nav {
+	background-color: white;
+}
+
+header {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+
+a, a:hover, a:active {
+	font-weight: 400;
+	text-decoration: none;
+    line-height: 2rem;
+}
+
+a {
+	color: darkcyan;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #50E3C2;
+}
+
+a:active, a:visited {
+	text-decoration: none;
+}
+
+
+p, h3 {
+	padding-bottom: .5rem;
+}
+
+
+
+nav ul li, header ul li, aside ul li {
+	margin-right: 2rem;
+}
+
+.control {
+	width: 3rem;
+	height: 20rem;
+}
+
+#carousel {
+	width: 100%;
+}
+
+
+#main li {
+	display: block;
+}
+
+#main {
+	display: flex;
+	display: inline-flex;
+	flex-flow: row wrap;
+	padding: 3rem;
+}
+
+#main aside:first-child {
+	flex: 2;
+
+}
+
+#main aside {
+	flex: 1;
+	min-width: 20rem;
+	padding: 0 3rem 0 0
+}
+
+
+
+footer {
+	font-size: 75%;
+	text-align: center;
+}
+
+#company-info {
+}
+
