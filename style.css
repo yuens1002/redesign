@@ -225,10 +225,16 @@ footer {
 		margin: 0 .75rem;
 	}
 	footer aside { padding-bottom: 0}
+
+	#links { display: none;}
+	aside, nav, header, #main, #carousel .text, footer {
+	padding: 1rem;
+	}
+
 	footer {
-		padding-bottom: 10rem;
+		padding-bottom: 7rem;
 		font-size: 75%;
 	}
-	#links { display: none;}
+
 }
 
